@@ -1,0 +1,103 @@
+{
+    "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+    "@id": "osep_test_data_json",
+    "@type": "dcat:Catalog",
+    "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+    "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+    "dataset": [
+      {
+        "@type": "dcat:Dataset",
+        "title": "Sample Test IDEA Section 618 Data Products",
+        "description": "Section 618 of the Individuals with Disabilities Education Act (IDEA) requires that each state submit data about the infants and toddlers, birth through age 2, who receive early intervention services under Part C of IDEA and children with disabilities, ages 3 through 21, who receive special education and related services under Part B of IDEA.\nFiles containing the submitted data are organized in [State Level Data Files][1] and Static Data Tables containing summaries of data in [Part B][2] and [Part C][3].\n[1]:idea-section-618-data-products-state\n[2]:idea-section-618-data-products-static-part-b\n[3]:idea-section-618-data-products-static-part-c",
+        "keyword": [
+          "individuals-with-disabilities-education-act",
+          "data-products"
+        ],
+        "modified": "2021-01-28",
+        "publisher": {
+          "@type": "org:Organization",
+          "name": "Office of Special Education Programs (OSEP)",
+          "subOrganziationOf": {
+              "@type": "org:Organization",
+              "name": "Office of Special Education and Rehabilitative Services (OSERS)",
+              "subOrganizationOf": {
+                  "@type": "org:Organization",
+                  "name": "U.S. Department of Education",
+                  "subOrganizationOf": {
+                      "@type": "org:Organization",
+                      "name": "U.S. Government"
+                  }
+              }
+          }
+        },
+        "contactPoint": {
+          "@type": "vcard:Contact",
+          "fn": "Office of Special Education Programs - Research to Practice Division",
+          "hasEmail": "mailto:OSEPideadata@ed.gov"
+        },
+        "identifier": "test-idea-section-618-data-products",
+        "accessLevel": "public",
+        "bureauCode": [
+          "018:15"
+        ],
+        "programCode": [
+          "018:000"
+        ],
+        "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "spatial": "United States",
+        "amended_by_user": "false",
+        "references": [
+            "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/assessment/idea-partb-assessment-2018-19.pdf",
+            "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/child-count-and-educational-environment/idea-partb-childcountandedenvironment-2019-20.pdf",
+            "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/discipline/idea-partb-discipline-2018-19.pdf"
+        ]
+      },
+      {
+        "@type": "dcat:Dataset",
+        "title": "Sample Test IDEA Section 618 State Level Data Files",
+        "description": "#IDEA Section 618 Data Products: State Level Data Files\nThere are 12 data collections authorized under the Individuals with Disabilities Education Act (IDEA) Section 618 under:\n\n##Part B:\n* [Child Count][B-Count]\n* [Educational Environments][B-Environ]\n* [Personnel][B-Personnel]\n* [Exiting][B-Exiting]\n* [Discipline][B-Discipline]\n* [Assessment][B-Assessment]\n* [Dispute Resolution][B-Dispute]\n* [Maintenance of Effort Reduction and Coordinated Early Intervening Services][B-Maint]\n\n##Part C:\n* [Child Count][C-Count]\n* [Settings][C-Settings]\n* [Exiting][C-Exiting]\n* [Dispute Resolution][C-Dispute]\n\n\\* Prior to school year (SY) 2012, the Part B Child Count and Educational Environments data and the Part C Child Count and Settings data were provided to the public in separate files.\n[B-Count]: idea-section-618-data-products-state-part-b-child-count\n[B-Environ]: idea-section-618-data-products-state-part-b-child-count-educational-environments\n[B-Assessment]: idea-section-618-data-products-state-part-b-assessment\n[B-Discipline]: idea-section-618-data-products-state-part-b-discipline\n[B-Dispute]: idea-section-618-data-products-state-part-b-dispute-resolution\n[B-Exiting]: idea-section-618-data-products-state-part-b-exiting\n[B-Maint]: idea-section-618-data-products-state-part-b-maintenance-of-effort-reduction\n[B-Personnel]: idea-section-618-data-products-state-part-b-personnel\n[C-Count]: idea-section-618-data-products-state-part-c-child-count\n[C-Settings]: idea-section-618-data-products-state-part-c-settings\n[C-Dispute]: idea-section-618-data-products-state-part-c-dispute\n[C-Exiting]: idea-section-618-data-products-state-part-c-exiting\n",
+        "keyword": [
+          "individuals-with-disabilities-education-act",
+          "data-products",
+          "state-level-data-files"
+        ],
+        "modified": "2021-01-28",
+        "publisher": {
+          "@type": "org:Organization",
+          "name": "Office of Special Education Programs (OSEP)",
+          "subOrganziationOf": {
+              "@type": "org:Organization",
+              "name": "Office of Special Education and Rehabilitative Services (OSERS)",
+              "subOrganizationOf": {
+                  "@type": "org:Organization",
+                  "name": "U.S. Department of Education",
+                  "subOrganizationOf": {
+                      "@type": "org:Organization",
+                      "name": "U.S. Government"
+                  }
+              }
+          }
+        },
+        "contactPoint": {
+          "@type": "vcard:Contact",
+          "fn": "Office of Special Education Programs - Research to Practice Division",
+          "hasEmail": "mailto:OSEPideadata@ed.gov"
+        },
+        "identifier": "test-idea-section-618-data-products-state",
+        "accessLevel": "public",
+        "bureauCode": [
+          "018:15"
+        ],
+        "programCode": [
+          "018:000"
+        ],
+        "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "spatial": "United States",
+        "amended_by_user": "false",
+        "references": [
+            "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/personnel/idea-partb-personnel-2013.doc",
+            "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/assessment/idea-partb-assessment-2012.doc"
+        ]
+      }
+    ]
+  }
